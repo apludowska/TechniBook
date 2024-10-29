@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo:7
+    ports:
+      - '27018:27017'
+    volumes:
+      - "C:/Users/Agnieszka/Downloads/technibook-db:/data/db"
+
